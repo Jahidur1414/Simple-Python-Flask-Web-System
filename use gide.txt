@@ -1,0 +1,17 @@
+# First ready the enviroment
+
+pip install virtualenv
+
+virtualenv env
+
+Set-ExecutionPolicy unrestricted
+
+# Module Need to install
+
+1. pip install flask-sqlalchemy
+
+
+# Create the DB 
+1. from app import db
+2. db.create_all()
+3. exit()
